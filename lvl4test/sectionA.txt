@@ -1,0 +1,34 @@
+1. SQL:  STRUCTURED QUERY LANGUAGE
+
+2.
+ 
+ boolean: is used to store true or false values . for example , boolean:
+ integer: is used to store whole numbers . for example , integer:
+ text: is used to store strings of text . for example , text:
+ varchar: is used to store strings of text with a maximum length . for example , varchar(255):
+
+
+
+3.
+COUNT: is used to count the number of rows in a table . for example , SELECT COUNT(*) FROM users_table .
+MAX: is used to find the maximum value in a column . for example , SELECT MAX(age) FROM users_table .
+MIN: is used to find the minimum value in a column . for example , SELECT MIN(age) FROM users_table .
+
+
+
+4.
+ UPDATE: it is used to update the data in the table .
+ DELETE: itis used to delete the data from the table . 
+ RENAME:it is used to change the name of the table . 
+
+ SELECT: its is used in order to get the data from the table . 
+ INSERT: it is used to insert the data into the table . 
+
+ EXAMPLES:
+SELECT name FROM users_table WHERE age > 20 .
+INSERT INTO users_table (name, age) VALUES ('John', 25) .
+
+
+
+ 
+
